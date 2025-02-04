@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_b15/list_tile_view.dart';
+import 'package:flutter_b15/list_view.dart';
 import 'package:flutter_b15/login.dart';
 import 'image.dart';
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginView(),
+      home: ListViewDemo(),
     );
   }
 }
