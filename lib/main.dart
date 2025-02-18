@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_b15/dynamic_list_view.dart';
+import 'package:flutter_b15/grid_view.dart';
 import 'package:flutter_b15/list_tile_view.dart';
 import 'package:flutter_b15/list_view.dart';
 import 'package:flutter_b15/login.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PageViewDemo(),
+      home: GridViewDemo(),
     );
   }
 }
