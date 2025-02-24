@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_b15/bottom_bar.dart';
 import 'package:flutter_b15/dynamic_list_view.dart';
 import 'package:flutter_b15/grid_view.dart';
 import 'package:flutter_b15/list_tile_view.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: GridViewDemo(),
+      home: BottomBarView(),
     );
   }
 }
