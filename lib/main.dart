@@ -8,6 +8,7 @@ import 'package:flutter_b15/login.dart';
 import 'package:flutter_b15/multiple_selection.dart';
 import 'package:flutter_b15/page_view.dart';
 import 'package:flutter_b15/single_selection.dart';
+import 'package:flutter_b15/tab_bar_view.dart';
 import 'image.dart';
 
 void main() {
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: BottomBarView(),
+      home: TabBarViewDemo(),
     );
   }
 }
