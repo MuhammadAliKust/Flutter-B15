@@ -17,9 +17,9 @@ class BottomSheetDemo extends StatelessWidget {
                   builder: (context) {
                     return Container(
                       width: MediaQuery.of(context).size.width,
-                      child: Column(children: [
-                        Text("Hi")
-                      ],),
+                      child: Column(
+                        children: [Text("Hi")],
+                      ),
                     );
                   });
             },
