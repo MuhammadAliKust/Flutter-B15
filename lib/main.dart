@@ -4,6 +4,7 @@ import 'package:flutter_b15/bottom_sheet.dart';
 import 'package:flutter_b15/dialog_box.dart';
 import 'package:flutter_b15/drop_down.dart';
 import 'package:flutter_b15/dynamic_list_view.dart';
+import 'package:flutter_b15/google_map.dart';
 import 'package:flutter_b15/grid_view.dart';
 import 'package:flutter_b15/list_tile_view.dart';
 import 'package:flutter_b15/list_view.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ScreenAView(),
+      home: GoogleMapView(),
     );
   }
 }
